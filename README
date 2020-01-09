@@ -1,0 +1,20 @@
+Uses CmakeLists.txt and cmake to generate make file. If needed run "cmake .." in cmake-build-debug
+TO BUILD navigate to cmake-build-debug and run make
+
+Player original health, damage, and type are set in player constructor in main. 
+
+Genetic algorithm evolves enemies to defeat a player . This player has predefined starting values that the population will evolve around. 
+Some interesting results, occasionally the algorithm may favor high individual crossovers or stat mutations, and other times a strong all around enemy will
+be favored.
+There is no limit to how strong they can get, although if the mutation function is commented out, they will not be able to gain
+random stat boosts that are unrelated to their parents.
+
+The fitness function is a simulated combat experience against the defined player, where health, damage, type, defense, of both
+enemy and player are taken into account for a fitness score.
+
+A bug DOES occasionally occur where the enemies will all evolve from parent 0 at times.
+
+
+
+-Tim Joyce
+

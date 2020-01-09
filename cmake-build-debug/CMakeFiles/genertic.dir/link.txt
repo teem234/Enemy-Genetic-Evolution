@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/genertic.dir/main.cpp.o CMakeFiles/genertic.dir/Enemy.cpp.o CMakeFiles/genertic.dir/Chromosome.cpp.o CMakeFiles/genertic.dir/GeneticPopulation.cpp.o CMakeFiles/genertic.dir/Player.cpp.o  -o genertic 
